@@ -1,5 +1,6 @@
 import {useState,useEffect} from "react";
 import './App.css';
+import image from "./image.jpeg";
 
 function App() {
 
@@ -15,11 +16,21 @@ function App() {
     console.log(data.activity);
     setTips(data.activity)
   }
-  return (
+  return (<div>
+
+    <div className="App">
+      <img className="background-image" src = {image} alt="pic"></img>
+    </div>
+
     <div className="App">
       <p>{tips}</p>
+      </div>
+
+      <div className="btn">
       <button onClick = {fetchTips}>New Tip</button>
     </div>
+    </div>
+    
   );
 }
 
