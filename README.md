@@ -5,9 +5,9 @@ This is a simple React application that fetches random activities from the Bored
 
 ## Features
 
-- Fetches random activities from the Bored API.
-- Displays fetched activity to the user.
-- Allows the user to fetch a new random activity.
+ - Fetches random activities from the Bored API.
+ - Displays fetched activity to the user.
+ - Allows the user to fetch a new random activity.
 
 ## Technologies Used
 
